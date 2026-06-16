@@ -41,7 +41,7 @@ function displayQuestion(){
 }
 for(let i=0;i<answerbtns.length;i++){
     answerbtns[i].addEventListener("click",() => {
-        if(answerbtn(i)=questions.indexAnswer){
+        if(answerbtns[i].indexAswer){
             feedback.textContent="correct";
         }feedback.textContent = "Try again";
 
